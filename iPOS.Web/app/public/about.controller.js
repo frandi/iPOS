@@ -4,9 +4,9 @@
     var controllerId = 'about';
     angular
         .module('app')
-        .controller(controllerId, [about]);
+        .controller(controllerId, ['pageElement', about]);
 
-    function about() {
-
+    function about(pageElement) {
+        pageElement.setTitle('Home');
     }
 })();
