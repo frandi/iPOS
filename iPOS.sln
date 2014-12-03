@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPOS.Web", "iPOS.Web\iPOS.Web.csproj", "{913B842D-7990-449F-BB39-A3687F2C59E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPOS.WebAPI", "iPOS.WebAPI\iPOS.WebAPI.csproj", "{0D61C929-F707-4A62-A6CF-091E20E6E198}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{913B842D-7990-449F-BB39-A3687F2C59E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913B842D-7990-449F-BB39-A3687F2C59E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913B842D-7990-449F-BB39-A3687F2C59E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D61C929-F707-4A62-A6CF-091E20E6E198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D61C929-F707-4A62-A6CF-091E20E6E198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D61C929-F707-4A62-A6CF-091E20E6E198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D61C929-F707-4A62-A6CF-091E20E6E198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

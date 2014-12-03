@@ -1,0 +1,15 @@
+﻿<connectionStrings>
+  <!-- ********************************************************************************************** -->
+  <!-- ****  Usage:			                                                                   ****** -->
+  <!-- ****    Rename this file into ConnectionStrings.config and modify the following values: ****** -->
+  <!-- ****    - [DatabaseServer]   : ex. localhost\SQLServer                                  ****** -->
+  <!-- ****    - [DatabaseName]     : ex. EXXDB60                                              ****** -->
+  <!-- ****    - [DatabaseUsername] : ex. sa                                                   ****** -->
+  <!-- ****    - [DatabasePassword] : ex. password                                             ****** -->
+  <!-- ****                                                                                    ****** -->
+  <!-- ****  Note:                                                                             ****** -->
+  <!-- ****     Please Do NOT commit the coonectionstrings.config file                         ****** -->
+  <!-- ****                                                                                    ****** -->
+  <!-- ********************************************************************************************** -->
+  <add name="iPOSContext" connectionString="Data Source=[DatabaseServer];Initial Catalog=[DatabaseName];User Id=[DatabaseUsername];Password=[DatabasePassword];Integrated Security=SSPI;" providerName="System.Data.SqlClient" />
+</connectionStrings>
